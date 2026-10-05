@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ThaMek Technology | ថាមិច តិចណូឡូជី</title>
+<meta name="description" content="ThaMek Technology in Phnom Penh, Cambodia: IT solutions, web development, networks, cloud and cybersecurity.">
+<meta name="theme-color" content="#081a3c">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+Khmer:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f7fc;--card:#fff;--tx:#0b1b3a;--mut:#5b6b88;--pri:#1d5fe0;--dk:#0a1f4d;--acc:#00d4c8;--bd:#dbe3f2;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#07122b;--card:#0f2150;--tx:#eaf0ff;--mut:#9fb0d3;--bd:#1f3472}}
+:root[data-theme="dark"]{--bg:#07122b;--card:#0f2150;--tx:#eaf0ff;--mut:#9fb0d3;--bd:#1f3472}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 Inter,"Noto Sans Khmer",system-ui,sans-serif}
+a{color:inherit;text-decoration:none}.w{max-width:1100px;margin:auto;padding:0 20px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--dk);color:#fff}
+nav .w{display:flex;align-items:center;justify-content:space-between;height:60px}
+nav b{font-weight:800}nav b i{color:var(--acc);font-style:normal}
+.m a{margin-left:18px;font-size:14px;opacity:.85;transition:.2s}.m a:hover{opacity:1;color:var(--acc)}
+#bg{display:none;background:none;border:0;color:#fff;font-size:26px}
+@media(max-width:820px){#bg{display:block}.m{display:none;position:absolute;top:60px;left:0;right:0;background:var(--dk);padding:10px 20px}.m.o{display:block}.m a{display:block;margin:0;padding:10px 0}}
+.hero{background:radial-gradient(circle at 80% 20%,#1d5fe0 0,transparent 45%),linear-gradient(135deg,#061538,#0a1f4d);color:#fff;padding:90px 0;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;inset:0;background-image:linear-gradient(#ffffff10 1px,transparent 1px),linear-gradient(90deg,#ffffff10 1px,transparent 1px);background-size:40px 40px}
+.hero .w{position:relative;z-index:1}.kh{font-family:"Noto Sans Khmer";color:var(--acc);font-size:20px}
+h1{font-size:clamp(32px,6vw,56px);line-height:1.1;margin:10px 0;font-weight:800}h2{font-size:30px;margin:0 0 6px}
+.btn{display:inline-block;padding:11px 22px;border-radius:8px;border:0;background:var(--pri);color:#fff;font:600 15px Inter;cursor:pointer;transition:.2s;margin:6px 8px 6px 0}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px #1d5fe055}.btn.a{background:var(--acc);color:#052}.btn.o{background:none;border:1px solid currentColor;color:inherit}.btn.s{padding:5px 12px;font-size:13px}.btn.d{background:#d93a3a}
+section{padding:64px 0}.sub{color:var(--mut);margin:0 0 28px}
+.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px}
+.c{background:var(--card);border:1px solid var(--bd);border-radius:14px;overflow:hidden;transition:.25s;padding:22px}
+.c:hover{transform:translateY(-5px);box-shadow:0 14px 30px #0a1f4d22}
+.c.p{padding:0}.c.p>div:last-child{padding:16px}
+.ic{font-size:34px}.ph,.c img{width:100%;height:170px;object-fit:cover;display:flex;align-items:center;justify-content:center;font-size:54px;background:linear-gradient(135deg,#1d5fe0,#0a1f4d);color:#fff}
+.tag{font-size:12px;color:var(--acc);font-weight:600;text-transform:uppercase}.pr{font-weight:800;color:var(--pri)}
+.alt{background:color-mix(in srgb,var(--pri) 6%,var(--bg))}
+.f{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}.f button{padding:6px 16px;border-radius:20px;border:1px solid var(--bd);background:var(--card);color:var(--tx);cursor:pointer}.f button.on{background:var(--pri);color:#fff}
+.gi{cursor:pointer;position:relative;overflow:hidden;border:0;padding:0;text-align:left;width:100%;border-radius:12px;background:none;color:inherit;font:inherit}.gi .ph,.gi img{height:190px;transition:.4s}.gi:hover .ph,.gi:hover img{transform:scale(1.1)}
+.gi span{position:absolute;left:0;right:0;bottom:0;background:#000a;color:#fff;padding:6px 10px;font-size:13px;opacity:0;transition:.3s}.gi:hover span{opacity:1}
+#lb{position:fixed;inset:0;background:#000d;display:none;align-items:center;justify-content:center;z-index:50;padding:60px 20px 20px;color:#fff;font-size:20px;text-align:center;flex-direction:column;gap:14px}#lb img{max-width:92vw;max-height:80vh;height:auto;object-fit:contain}#lb button{position:absolute;right:20px;top:20px;border:1px solid #ffffff80;border-radius:50%;width:42px;height:42px;background:#ffffff1a;color:#fff;font-size:24px;cursor:pointer}
+.ct{display:grid;grid-template-columns:1fr 1fr;gap:28px}@media(max-width:820px){.ct{grid-template-columns:1fr}}
+input,select,textarea{width:100%;padding:10px 12px;margin:4px 0 10px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--tx);font:inherit}
+.er{color:#d93a3a;font-size:12px;display:block;margin:-6px 0 8px}
+iframe{width:100%;height:260px;border:0;border-radius:12px;margin-top:14px}
+footer{background:var(--dk);color:#cfdcff;padding:44px 0 20px}footer a{display:block;opacity:.8;font-size:14px}footer a:hover{color:var(--acc)}
+.fg{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px}.cp{text-align:center;font-size:13px;margin-top:28px;opacity:.7}
+#adm{display:none}.tb{display:flex;gap:6px;flex-wrap:wrap;margin:16px 0}.tb button{padding:7px 14px;border:1px solid var(--bd);background:var(--card);color:var(--tx);border-radius:8px;cursor:pointer}.tb .on{background:var(--pri);color:#fff}
+.st{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px}.st .c{padding:14px;text-align:center}.st b{font-size:26px;display:block;color:var(--pri)}
+.rw{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--bd);flex-wrap:wrap}.rw small{color:var(--mut);display:block}
+.rv{opacity:0;transform:translateY(24px);transition:.7s}.rv.in{opacity:1;transform:none}
+.brand{display:flex;align-items:center;gap:10px;white-space:nowrap}.brand-mark{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--acc),#62a4ff);display:grid;place-items:center;color:#071b3f;font-size:18px}
+.m{display:flex;align-items:center}.m a{white-space:nowrap}
+.hero{padding:68px 0 78px;background:linear-gradient(100deg,#061538f5 5%,#0a1f4de8 48%,#0a1f4d6b),url("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1900&q=85") center/cover}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:42px}.hero-copy{max-width:620px}.hero h1{letter-spacing:-.045em}.hero .kh{display:block;margin-bottom:14px;font-weight:700}
+.hero-visual{position:relative;min-height:340px;display:flex;align-items:center;justify-content:center;isolation:isolate}
+.hero-visual::before,.hero-visual::after{content:"";position:absolute;z-index:-1;width:116%;height:116%;pointer-events:none;border-radius:50%;background:conic-gradient(from 0deg,transparent 0 8%,#43e8ff 11%,#876bff 16%,transparent 22% 48%,#ff66d4 54%,#ffbd66 60%,transparent 66% 100%);-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);mask-composite:exclude;padding:3px;filter:drop-shadow(0 0 8px #43dfff99);animation:trail-orbit 12s linear infinite}
+.hero-visual::after{background:conic-gradient(from 150deg,transparent 0 15%,#7cfff0 20%,#49a4ff 26%,transparent 33% 60%,#ff77ae 67%,#ffc76d 73%,transparent 79% 100%);filter:drop-shadow(0 0 10px #ff66d477);animation-duration:17s;animation-direction:reverse}
+.hero-device{position:relative;z-index:1;width:min(100%,430px);height:300px;object-fit:cover;border:0;border-radius:24px;box-shadow:0 24px 70px #0007;animation:tech-float 6s ease-in-out infinite}
+@keyframes trail-orbit{to{transform:rotate(360deg)}}
+@keyframes tech-float{0%,100%{transform:translateY(0) rotate(2deg)}50%{transform:translateY(-12px) rotate(-1deg)}}
+.hero-note{position:absolute;z-index:2;left:0;bottom:12px;background:#fff;color:#10254b;border-radius:14px;padding:12px 16px;box-shadow:0 15px 35px #0004;font-size:13px}
+.hero-note b{display:block;font-size:15px}.hero-points{display:flex;gap:18px;flex-wrap:wrap;margin-top:22px;color:#dce8ff;font-size:13px}.hero-points span:before{content:"✓";color:var(--acc);font-weight:800;margin-right:7px}
+.section-head{max-width:690px;margin-bottom:30px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;color:var(--pri);font-size:12px;font-weight:800;margin-bottom:8px}
+.about-feature{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center;margin:10px 0 42px}.about-photo{width:100%;height:330px;object-fit:cover;border-radius:18px;box-shadow:0 18px 48px #0a1f4d20}
+.about-copy{padding:10px 0}.about-copy h3{font-size:24px;margin:0 0 10px}.about-copy p{color:var(--mut)}
+.c h3{margin-top:10px}.c p{color:var(--mut)}.ic{width:54px;height:54px;display:grid;place-items:center;border-radius:15px;background:color-mix(in srgb,var(--pri) 10%,var(--card));font-size:28px}
+.g .c{box-shadow:0 6px 20px #0a1f4d08}.g .c:hover{border-color:#9fbaf2}
+.stats-row{display:flex;gap:32px;flex-wrap:wrap;margin-top:26px}.stat-item b{display:block;color:#fff;font-size:22px}.stat-item span{font-size:12px;color:#cfddfb}
+.contact-detail{display:flex;gap:12px;align-items:flex-start}.contact-detail .ic{flex:0 0 44px;width:44px;height:44px;font-size:21px}
+.contact-panel{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:22px}
+input:focus,select:focus,textarea:focus{outline:3px solid color-mix(in srgb,var(--pri) 24%,transparent);border-color:var(--pri)}
+button:focus-visible,a:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
+.notice{padding:12px 14px;border:1px solid #e5b85c;background:#fff8e7;color:#64470b;border-radius:10px;font-size:13px;line-height:1.5}
+@media(max-width:820px){.hero-grid{grid-template-columns:1fr}.hero-visual{min-height:260px;max-width:560px;width:100%;margin:0 auto}.hero-device{height:250px}.about-feature{grid-template-columns:1fr}.about-photo{height:280px}.m{display:none;align-items:stretch}.m.o{display:block}}
+@media(max-width:520px){.hero{padding:54px 0 60px}.hero-visual{min-height:210px}.hero-visual::before,.hero-visual::after{width:112%;height:112%}.hero-device{height:205px;border-radius:16px}.hero-note{left:8px;bottom:0;padding:9px 12px}.stats-row{gap:18px}.section-head{margin-bottom:22px}section{padding:50px 0}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition-duration:.01ms!important}}
+</style></head><body>
+<nav><div class="w"><a class="brand" href="#home" aria-label="ThaMek Technology home"><span class="brand-mark">T</span><b>ThaMek <i>Technology</i></b></a><button id="bg" aria-label="Menu" aria-expanded="false">☰</button>
+<div class="m" id="m"><a href="#home">Home</a><a href="#about">About Us</a><a href="#services">Products / Services</a><a href="#news">Promotion / News</a><a href="#gallery">Gallery</a><a href="#contact">Contact Us</a><a href="#" id="al">Admin Panel</a></div></div></nav>
+
+<div id="site">
+<header class="hero" id="home"><div class="w">
+<div class="hero-grid"><div class="hero-copy"><div class="kh">ថាមិច តិចណូឡូជី</div><div class="eyebrow" style="color:var(--acc)">Technology partner in Phnom Penh</div><h1>Technology Solutions<br>for a Smarter Future</h1>
+<p style="max-width:560px;opacity:.9">ThaMek Technology provides modern technology products and services designed to help businesses and customers work smarter, faster, and more efficiently.</p>
+<a class="btn a" href="#services">Explore Our Services</a><a class="btn o" href="#contact">Contact Us</a><div class="hero-points"><span>Local expertise</span><span>Practical solutions</span><span>Customer-first support</span></div>
+<div class="stats-row"><div class="stat-item"><b>End-to-end</b><span>Technology services</span></div><div class="stat-item"><b>Phnom Penh</b><span>Locally based team</span></div><div class="stat-item"><b>Built for you</b><span>Solutions that scale</span></div></div></div>
+<div class="hero-visual"><img class="hero-device" src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=85" alt="Modern computer hardware and technology components"><div class="hero-note"><b>Technology, made useful.</b>From setup to ongoing support</div></div></div></div></header>
+
+<section id="about"><div class="w"><div class="section-head"><div class="eyebrow">Who we are</div><h2>About ThaMek Technology</h2><p class="sub">A modern technology company in Phnom Penh, Cambodia.</p></div>
+<div class="about-feature"><img class="about-photo" src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1100&q=85" alt="A bright, collaborative modern technology workspace" loading="lazy"><div class="about-copy"><h3>Technology that moves your business forward</h3><p>We help local businesses and customers make confident use of technology. From everyday IT support to custom digital projects, our team focuses on dependable service, clear communication, and solutions that fit the way you work.</p><a class="btn s" href="#contact">Talk to our team</a></div></div>
+<div class="g"><div class="c"><h3>Company History</h3><p>ThaMek Technology was founded in Phnom Penh to bring dependable, modern technology to local businesses. We started with IT support and networking, and have grown into web, software, cloud and security solutions for organizations of all sizes.</p></div>
+<div class="c"><h3>🎯 Our Mission</h3><p>To provide reliable, innovative, and accessible technology solutions that help people and businesses grow.</p></div>
+<div class="c"><h3>🔭 Our Vision</h3><p>To become a trusted technology company that delivers modern solutions and creates a smarter digital future.</p></div></div>
+<h3 style="margin-top:36px">Our Values</h3><div class="g" id="vals"></div></div></section>
+
+<section class="alt" id="services"><div class="w"><h2>Our Services</h2><p class="sub">End-to-end technology solutions.</p><div class="g" id="sv"></div>
+<h2 style="margin-top:56px" id="products">Our Products</h2><p class="sub">Browse and place an order.</p><div class="g" id="pd"></div>
+<h2 style="margin-top:56px">Why Choose Us</h2><div class="g"><div class="c">⚡ <b>Fast delivery</b><p>Quick turnaround on every project.</p></div><div class="c">🛡️ <b>Reliable &amp; secure</b><p>Quality work you can trust.</p></div><div class="c">🤝 <b>Local support</b><p>Friendly team in Phnom Penh.</p></div></div></div></section>
+
+<section id="news"><div class="w"><h2>Promotion / News</h2><p class="sub">Latest updates, offers and events.</p><div class="f" id="nf"></div><div class="g" id="nw"></div></div></section>
+
+<section class="alt" id="gallery"><div class="w"><h2>Gallery</h2><p class="sub">Our company, products, services, events and projects.</p><div class="f" id="gf"></div><div class="g" id="gl"></div></div></section>
+
+<section id="contact"><div class="w"><h2>Contact Us</h2><p class="sub">We'd love to hear from you.</p><div class="ct"><div>
+<div class="contact-panel"><div class="contact-detail"><div class="ic">☎</div><p><b>Phone</b><br><a href="tel:0975193442">097 519 3442</a></p></div><div class="contact-detail"><div class="ic">✉</div><p><b>Email</b><br><a href="mailto:runrady2021@gmail.com">runrady2021@gmail.com</a></p></div><div class="contact-detail"><div class="ic">⌖</div><p><b>Visit us</b><br>BP 511, Phum Tropeang Chhuk (Borey Sorla), Sangkat, Street 371, Phnom Penh, Cambodia</p></div></div>
+<iframe loading="lazy" title="Map showing the ThaMek Technology address in Phnom Penh" src="https://www.google.com/maps?q=BP+511,+Phum+Tropeang+Chhuk,+Street+371,+Phnom+Penh,+Cambodia&output=embed"></iframe>
+<a class="btn s o" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=BP+511,+Phum+Tropeang+Chhuk,+Street+371,+Phnom+Penh,+Cambodia">Open in Google Maps</a></div>
+<form class="contact-panel" id="cf" novalidate><h3 style="margin-top:0">Send us a message</h3><label>Full Name<input name="name" autocomplete="name" required></label><label>Email<input name="email" type="email" autocomplete="email" required></label><label>Phone Number<input name="phone" type="tel" autocomplete="tel"></label><label>Subject<input name="subject" required></label><label>Message<textarea name="message" rows="4" required></textarea></label><button class="btn" type="submit">Send Message</button><p id="ok" style="color:var(--pri)" role="status" aria-live="polite"></p></form></div></div></section>
+</div>
+
+<div id="adm"><div class="w" style="padding:40px 20px;min-height:70vh">
+<div id="lg" style="max-width:420px;margin:auto"><h2>Admin Login</h2><p class="sub">Sign in to manage the website content.</p><label>Username / Email<input id="u" autocomplete="username" placeholder="Username / Email"></label><label>Password<input id="pw" type="password" autocomplete="current-password" placeholder="Password"></label><span class="er" id="le" role="alert"></span><button class="btn" id="lb2">Login</button><p class="notice">This standalone preview stores content in this browser only. It is not connected to a database; replace demo access with server-side authentication before publishing.</p><p class="sub">Demo login: admin / admin123</p></div>
+<div id="dash" style="display:none"><div class="rw" style="border:0"><h2>Dashboard</h2><button class="btn s d" id="lo">Logout</button></div><div class="st" id="stt"></div><div class="tb" id="tbs"></div><div class="c" id="frm"></div><div id="lst"></div></div></div></div>
+
+<footer><div class="w"><div class="fg"><div><b style="font-size:18px">ThaMek Technology</b><p>Technology Solutions for a Smarter Future</p><p>🌐 📘 💬 ▶️</p></div>
+<div><b>Quick Links</b><a href="#home">Home</a><a href="#about">About Us</a><a href="#services">Services</a><a href="#products">Products</a><a href="#news">News</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div>
+<div><b>Contact</b><a href="tel:0975193442">097 519 3442</a><a href="mailto:runrady2021@gmail.com">runrady2021@gmail.com</a><a>Phnom Penh, Cambodia</a></div></div>
+<div class="cp">© 2026 ThaMek Technology. All Rights Reserved.</div></div></footer>
+<div id="lb"></div>
+
+<script>
+const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const K='thamek_v1',seed={
+services:[["🖥️","IT Solutions","Reliable IT solutions for businesses and organizations."],["🌐","Web Development","Modern, responsive, professional websites."],["📡","Network Solutions","Installation, configuration, maintenance and troubleshooting."],["🛠️","IT Support","Support and maintenance for computers, networks and systems."],["💻","Software Development","Customized software built to your requirements."],["☁️","Cloud Services","Cloud storage, applications and business operations."],["🔒","Cybersecurity","Protect systems, networks and data from threats."]].map((a,i)=>({id:i+1,icon:a[0],name:a[1],description:a[2]})),
+products:[{id:1,name:"Business Laptop",category:"Hardware",price:650,description:"Reliable laptop for office work.",image:"https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=80"},{id:2,name:"Wi-Fi 6 Router",category:"Networking",price:89,description:"Fast, stable coverage for offices.",image:"https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=900&q=80"},{id:3,name:"Security Camera Kit",category:"Security",price:199,description:"4-camera HD surveillance kit.",image:"https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=900&q=80"}],
+news:[{id:1,title:"Welcome to our new website",category:"Company News",date:"2026-10-01",description:"ThaMek Technology launches its new online home.",image:"https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80"},{id:2,title:"Network setup promotion",category:"Promotions",date:"2026-10-03",description:"Special rates on office network installation this month.",image:"https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=80"}],
+gallery:[["Our office","Company","photo-1497366754035-f200968a6e72"],["Router range","Products","photo-1544197150-b99a580bb7a8"],["Cabling work","Services","photo-1558618666-fcd25c85cd64"],["Tech meetup","Events","photo-1517245386807-bb43f82c33c4"],["Client portal","Projects","photo-1460925895917-afdab827c52f"],["Server room","Projects","photo-1558494949-ef010cbdcc31"]].map((a,i)=>({id:i+1,title:a[0],category:a[1],image:`https://images.unsplash.com/${a[2]}?auto=format&fit=crop&w=900&q=80`})),
+messages:[],orders:[]};
+let D;try{D=JSON.parse(localStorage.getItem(K))}catch(e){console.error('Unable to read saved ThaMek website content.',e)}D=D||JSON.parse(JSON.stringify(seed));
+const save=()=>{try{localStorage.setItem(K,JSON.stringify(D));return true}catch(e){console.error('Unable to save ThaMek website content.',e);alert('Unable to save changes in this browser. Storage may be full or unavailable.');return false}};
+const vis=(x,e)=>x.image?`<img src="${esc(x.image)}" alt="${esc(x.name||x.title)}">`:`<div class="ph">${e}</div>`;
+const nid=a=>a.reduce((m,x)=>Math.max(m,x.id),0)+1;
+// values
+$('#vals').innerHTML=[["💡","Innovation"],["✅","Quality"],["🤝","Trust"],["😊","Customer Satisfaction"],["👥","Teamwork"],["🎓","Professionalism"]].map(v=>`<div class="c rv"><div class="ic">${v[0]}</div><b>${v[1]}</b></div>`).join('');
+let nF='All',gF='All';
+const NC=["Technology News","Company News","Promotions","New Products","Events"],GC=["Company","Products","Services","Events","Projects"];
+function filt(el,cats,cur,fn){el.innerHTML=['All',...cats].map(c=>`<button class="${c==cur?'on':''}" data-c="${esc(c)}">${esc(c)}</button>`).join('');el.onclick=e=>{if(e.target.dataset.c){fn(e.target.dataset.c);render()}}}
+function render(){
+$('#sv').innerHTML=D.services.map(s=>`<div class="c rv"><div class="ic">${esc(s.icon)}</div><h3>${esc(s.name)}</h3><p>${esc(s.description)}</p><a class="btn s" href="#contact">Learn More</a></div>`).join('');
+$('#pd').innerHTML=D.products.map(p=>`<div class="c p rv">${vis(p,'📦')}<div><span class="tag">${esc(p.category)}</span><h3 style="margin:2px 0">${esc(p.name)}</h3><p>${esc(p.description)}</p><span class="pr">$${esc(p.price)}</span> <button class="btn s" style="float:right" data-o="${p.id}">Order</button></div></div>`).join('')||'<p>No products yet.</p>';
+filt($('#nf'),NC,nF,c=>nF=c);
+$('#nw').innerHTML=D.news.filter(n=>nF=='All'||n.category==nF).sort((a,b)=>b.date.localeCompare(a.date)).map(n=>`<div class="c p rv">${vis(n,'📰')}<div><span class="tag">${esc(n.category)} · ${esc(n.date)}</span><h3 style="margin:2px 0">${esc(n.title)}</h3><p>${esc(n.description)}</p><a class="btn s" href="#contact">Read More</a></div></div>`).join('')||'<p>No posts.</p>';
+filt($('#gf'),GC,gF,c=>gF=c);
+$('#gl').innerHTML=D.gallery.filter(g=>gF=='All'||g.category==gF).map(g=>`<button class="gi rv" type="button" data-g="${g.id}" aria-label="View ${esc(g.title)}">${vis({...g,name:g.title},'🖼️')}<span>${esc(g.title)} · ${esc(g.category)}</span></button>`).join('');
+io();}
+let ob;function io(){ob=ob||new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');ob.unobserve(e.target)}}),{threshold:.1});document.querySelectorAll('.rv:not(.in)').forEach(x=>ob.observe(x))}
+document.addEventListener('click',e=>{
+const o=e.target.dataset.o;if(o){const p=D.products.find(x=>x.id==o),n=prompt('Your name for the order of '+p.name+':');if(n&&n.trim()){D.orders.push({id:nid(D.orders),customer:n.trim().slice(0,80),item:p.name,total:p.price,status:'Pending'});if(save())alert('Order placed. We will contact you soon!')}}
+const g=e.target.closest('[data-g]');if(g){const x=D.gallery.find(i=>i.id==g.dataset.g);$('#lb').innerHTML=`<button type="button" aria-label="Close image">×</button>`+(x.image?`<img src="${esc(x.image)}" alt="${esc(x.title)}">`:'<div style="font-size:120px">🖼️</div>')+`<div>${esc(x.title)} · ${esc(x.category)}</div>`;$('#lb').style.display='flex';$('#lb').setAttribute('aria-modal','true');$('#lb').setAttribute('role','dialog');$('#lb button').focus()}
+if(e.target.id=='lb'||e.target.closest('#lb button'))$('#lb').style.display='none';
+if(e.target.id=='bg'){const open=$('#m').classList.toggle('o');e.target.setAttribute('aria-expanded',String(open))}
+if(e.target.closest('.m a'))$('#m').classList.remove('o');});
+document.addEventListener('keydown',e=>{if(e.key=='Escape'&&$('#lb').style.display=='flex')$('#lb').style.display='none'});
+// contact
+$('#cf').onsubmit=e=>{e.preventDefault();const f=e.target;f.querySelectorAll('.er').forEach(x=>x.remove());let ok=true;
+const bad=(n,m)=>{ok=false;f[n].insertAdjacentHTML('afterend',`<span class="er">${m}</span>`)};
+const v=n=>f[n].value.trim();
+if(v('name').length<2)bad('name','Please enter your full name.');
+if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v('email')))bad('email','Enter a valid email.');
+if(v('phone')&&!/^[0-9+\s-]{7,16}$/.test(v('phone')))bad('phone','Enter a valid phone number.');
+if(v('subject').length<3)bad('subject','Please add a subject.');
+if(v('message').length<10)bad('message','Message must be at least 10 characters.');
+if(!ok)return;D.messages.push({id:nid(D.messages),name:v('name'),email:v('email'),phone:v('phone'),subject:v('subject'),message:v('message'),read:false,date:new Date().toISOString().slice(0,10)});if(!save())return;f.reset();$('#ok').textContent='Thank you! Your message has been sent.'};
+// admin
+const CFG={products:[['name','text'],['category','text'],['price','number'],['description','textarea'],['image','file']],services:[['icon','text'],['name','text'],['description','textarea']],news:[['title','text'],['category','select',NC],['date','date'],['description','textarea'],['image','file']],gallery:[['title','text'],['category','select',GC],['image','file']]};
+let tab='products',edit=null,auth=false,site=true;
+const show=a=>{site=!a;$('#site').style.display=a?'none':'';$('#adm').style.display=a?'block':'none';scrollTo(0,0)};
+$('#al').onclick=e=>{e.preventDefault();show(true);adm();$('#m').classList.remove('o')};
+document.querySelectorAll('.m a:not(#al)').forEach(a=>a.addEventListener('click',()=>{if(!site)show(false)}));
+$('#lb2').onclick=async()=>{const h=async s=>[...new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)))].map(b=>b.toString(16).padStart(2,'0')).join('');
+// demo only: client-side hash check; use server-side password_hash() in production
+if($('#u').value.trim()=='admin'&&await h($('#pw').value)==await h('admin123')){auth=true;$('#le').textContent='';adm()}else $('#le').textContent='Invalid username or password.'};
+$('#lo').onclick=()=>{auth=false;$('#pw').value='';adm()};
+function adm(){$('#lg').style.display=auth?'none':'block';$('#dash').style.display=auth?'block':'none';if(!auth)return;
+$('#stt').innerHTML=[['Products','products'],['Services','services'],['News','news'],['Gallery Images','gallery'],['Messages','messages'],['Orders','orders']].map(a=>`<div class="c"><b>${D[a[1]].length}</b>${a[0]}</div>`).join('');
+$('#tbs').innerHTML=['products','services','news','gallery','messages','orders'].map(t=>`<button class="${t==tab?'on':''}" data-t="${t}">${t[0].toUpperCase()+t.slice(1)}</button>`).join('');
+const cf=CFG[tab],it=edit?D[tab].find(x=>x.id==edit):{};
+$('#frm').style.display=cf?'block':'none';
+if(cf)$('#frm').innerHTML=`<b>${edit?'Edit':'Add'} ${tab.slice(0,-1)}</b><form id="af">`+cf.map(f=>{const n=f[0],val=it[n]??'',l=`<label>${n}`;return f[1]=='textarea'?`${l}<textarea name="${n}" rows="2">${esc(val)}</textarea></label>`:f[1]=='select'?`${l}<select name="${n}">${f[2].map(o=>`<option ${o==val?'selected':''}>${o}</option>`).join('')}</select></label>`:f[1]=='file'?`${l} (upload)<input type="file" name="${n}" accept="image/*"></label>`:`${l}<input name="${n}" type="${f[1]}" value="${esc(val)}" required></label>`}).join('')+`<button class="btn s">${edit?'Update':'Add'}</button>${edit?'<button type="button" class="btn s o" data-t="'+tab+'">Cancel</button>':''}</form>`;
+$('#lst').innerHTML=D[tab].map(x=>{const t=x.name||x.title||x.subject||x.customer;let sub=x.message?`${esc(x.name)} &lt;${esc(x.email)}&gt; ${esc(x.phone)}<br>${esc(x.message)}`:x.item?esc(x.item)+' · $'+esc(x.total):esc(x.category||x.description||'');
+return `<div class="rw"><div><b>${x.read===false?'● ':''}${esc(t)}</b><small>${sub}</small></div><div>${x.message?`<button class="btn s" data-r="${x.id}">${x.read?'Unread':'Mark read'}</button>`:''}${x.status?`<select data-s="${x.id}" style="width:auto;margin:0">${['Pending','Processing','Completed','Cancelled'].map(s=>`<option ${s==x.status?'selected':''}>${s}</option>`).join('')}</select>`:''}${cf?`<button class="btn s o" data-e="${x.id}">Edit</button>`:''}<button class="btn s d" data-d="${x.id}">Delete</button></div></div>`}).join('')||'<p class="sub">Nothing here yet.</p>'}
+$('#dash').addEventListener('click',e=>{const d=e.target.dataset;if(d.t){tab=d.t;edit=null}else if(d.e)edit=+d.e;else if(d.d){if(!confirm('Delete this item?'))return;D[tab]=D[tab].filter(x=>x.id!=d.d)}else if(d.r){const m=D.messages.find(x=>x.id==d.r);m.read=!m.read}else return;save();adm();render()});
+$('#dash').addEventListener('change',e=>{if(e.target.dataset.s){D.orders.find(x=>x.id==e.target.dataset.s).status=e.target.value;save()}});
+$('#dash').addEventListener('submit',async e=>{e.preventDefault();const f=e.target,o={};
+for(const [n,t] of CFG[tab]){if(t=='file'){const fl=f[n].files[0];if(fl){if(fl.size>1.5e6){alert('Image must be under 1.5 MB');return}o[n]=await new Promise(r=>{const R=new FileReader;R.onload=()=>r(R.result);R.readAsDataURL(fl)})}}else o[n]=t=='number'?+f[n].value:f[n].value.trim()}
+if(edit){Object.assign(D[tab].find(x=>x.id==edit),o);edit=null}else D[tab].push({id:nid(D[tab]),...o});save();adm();render()});
+render();
+</script></body></html>
